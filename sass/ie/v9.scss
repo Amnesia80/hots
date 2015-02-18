@@ -1,0 +1,54 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Landed by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Loader */
+
+	body.landing {
+		&:before, &:after {
+			display: none !important;
+		}
+	}
+
+/* Icon */
+
+	.icon {
+		&.alt {
+			color: inherit !important;
+		}
+
+		&.major {
+			&.alt {
+				&:before {
+					color: $color-fg-bold !important;
+				}
+			}
+		}
+	}
+
+/* Banner */
+
+	#banner {
+		&:after {
+			background-color: $color-bg-transparent;
+		}
+	}
+
+/* Footer */
+
+	#footer {
+		.icons {
+			.icon {
+				&.alt {
+					&:before {
+						color: $color-fg-bold !important;
+					}
+				}
+			}
+		}
+	}
