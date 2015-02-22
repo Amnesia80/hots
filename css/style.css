@@ -7,6 +7,110 @@
 	License: pixelarity.com/license
 */
 
+.cf:after,
+.cf:before {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
+.wrapper_2 {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+}
+.wrapper_2 img{
+  max-width: 100%;
+  height: auto;
+}
+
+#filter-buttons {
+  text-align: center;
+  border-bottom: 1px solid #999;
+  margin-bottom: 20px;
+}
+#filter-buttons li {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+#filter-buttons li a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-bottom: 0px;
+  }
+#filter-container {
+  width: 965px;
+  margin-bottom: 60px;
+  /* Fixes shadow and margin right */
+
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-left: -5px;
+}
+#filter-container figure {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+#filter-container figure .thumb {
+  display: block;
+  width: 100%;
+  line-height: 0em;
+  border-bottom: 2px solid #ccc;
+}
+#filter-container figure .thumb img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#filter-container figure .thumb:hover img {
+  opacity: 0.2;
+}
+#filter-container figure figcaption {
+  margin: 18px 10px 20px 10px;
+  text-align: center;
+}
+#filter-container figure figcaption .heading {
+  margin-bottom: 13px;
+  font-size: 32px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  display: block;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#filter-container figure figcaption .readmore {
+  display: block;
+  margin: 10px 0px;
+}
+
+#main_2 h1,
+#main_2 h2,
+#main_2 h3,
+#main_2 h4,
+#main_2 h5,
+#main_2 h6 {
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+#main_2,
+footer {
+  line-height: 1.5em;
+}
+
 /* Basic */
 
 	html, body {
